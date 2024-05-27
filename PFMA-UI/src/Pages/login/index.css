@@ -1,0 +1,71 @@
+.main__container {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.hero__header {
+  font-size: 40px;
+  text-align: left;
+}
+.main__header_text {
+  color: #ff7a00;
+  font-size: 32px;
+  text-align: left;
+}
+
+.sub__heading {
+  font-size: 16px;
+  text-align: left;
+}
+
+.signin__container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 8px;
+}
+
+.image__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  width: 50%;
+  background-image: url("../../Assests/images/login.png");
+  opacity: 0.6;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.forget__link {
+  text-align: right;
+  color: #ff7a00;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.password__subline {
+  font-size: 16px;
+  text-align: left;
+}
+
+.password__subline_highlite {
+  color: #ff7a00;
+  cursor: pointer;
+}
